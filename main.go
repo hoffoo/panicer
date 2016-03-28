@@ -1,13 +1,9 @@
 package main
 
-import (
-	"os"
-	"time"
-)
+import "os"
 
 func main() {
 
 	//panic("bad things happened")
-	time.Sleep(time.Minute * 5)
 	os.Exit(1)
 }
