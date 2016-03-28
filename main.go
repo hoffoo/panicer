@@ -1,8 +1,9 @@
 package main
 
+import "time"
+
 func main() {
 
 	//panic("bad things happened")
-	c := make(chan (int))
-	<-c
+	time.Sleep(time.Minute * 1)
 }
