@@ -1,12 +1,7 @@
 package main
 
-import (
-	"os"
-	"time"
-)
+import "os"
 
 func main() {
-
-	time.Sleep(time.Minute * 1)
 	os.Exit(1)
 }
